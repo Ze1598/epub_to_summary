@@ -100,7 +100,7 @@ def summarise_markdown(file_path, display_name, gemini_model="gemini-1.5-pro"):
     prompt ="""
     For the book attached, I want you to retrieve the following information:
     - Chapters and a two-sentence description for each chapter
-    - Key concepts and definition provided by the author
+    - Key concepts and definitions provided by the author
     - If there are chapter summaries included within the book, include them as part of your response verbatim
     - If there is a summary for the book at the end, typically in the last chapter, include it as part of your response verbatim
     - If the book describes any tools, recipes, processes, or systems, then include their details as part of your response
