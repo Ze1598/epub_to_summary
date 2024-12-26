@@ -5,10 +5,10 @@ name = "pypi"
 
 [packages]
 streamlit = "*"
-ebooklib = "*"
 beautifulsoup4 = "*"
 html2text = "*"
 google-generativeai = "*"
+ebooklib = "*"
 
 [dev-packages]
 
