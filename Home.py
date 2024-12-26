@@ -14,9 +14,9 @@ st.markdown(
     Welcome to the Gemini book summariser. Upload your EPUB book and the app will handle everything for you :)
 
     Technical notes below:
-    * This web takes your uploaded EPUB book, converts it to the Markdown format, and then submits it to Google Gemini for summarisation
+    * This web app takes your uploaded EPUB book, converts it to the Markdown format, and then submits it to Google Gemini for summarisation
     * GitHub repository available [here](https://github.com/Ze1598/epub_to_summary)
-    * Your uploaded file within the web app is not kept. Even Gemini-side, the file attachment is deleted from the API after the summary is returned
+    * Your uploaded files within the web app are only kept during summarisation. All intermediary files generated are deleted upon completion, including deletion of files Gemini-side
 """
 )
 
