@@ -87,7 +87,7 @@ def cleanup_gemini_files():
         print()
 
 
-def summarise_markdown(file_path, display_name, gemini_model="gemini-1.5-pro"):
+def summarise_markdown(file_path, display_name, gemini_model="gemini-2.0-pro-exp"):
     gemini_authenticate()
 
     # Upload markdown file separately
